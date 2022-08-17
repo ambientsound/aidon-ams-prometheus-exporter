@@ -1,2 +1,2 @@
 arm:
-	GOARCH=arm go build -o build/gombus main.go
+	GOARCH=arm go build -o build/ams-exporter main.go

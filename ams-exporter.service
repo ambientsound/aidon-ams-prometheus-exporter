@@ -1,0 +1,8 @@
+[Unit]
+Description=Aidon AMS Prometheus exporter
+
+[Service]
+ExecStart=/usr/local/bin/ams-exporter
+
+[Install]
+WantedBy=default.target
