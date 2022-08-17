@@ -1,4 +1,4 @@
-module github.com/karl-gustav/ams-han-cmd
+module github.com/ambientsound/aidon-ams-prometheus-exporter
 
 go 1.18
 

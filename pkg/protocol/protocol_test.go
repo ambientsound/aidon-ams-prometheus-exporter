@@ -6,7 +6,7 @@ import (
 	`os`
 	`testing`
 
-	`github.com/karl-gustav/ams-han-cmd/pkg/protocol`
+	`github.com/ambientsound/aidon-ams-prometheus-exporter/pkg/protocol`
 	`github.com/stretchr/testify/assert`
 )
 

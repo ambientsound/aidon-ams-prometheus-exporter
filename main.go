@@ -11,13 +11,12 @@ import (
 	`syscall`
 	"time"
 
-	`github.com/prometheus/client_golang/prometheus/promhttp`
-	log "github.com/sirupsen/logrus"
-
+	`github.com/ambientsound/aidon-ams-prometheus-exporter/pkg/protocol`
 	"github.com/goburrow/serial"
-	`github.com/karl-gustav/ams-han-cmd/pkg/protocol`
 	`github.com/lvdlvd/go-hdlc`
 	`github.com/prometheus/client_golang/prometheus`
+	`github.com/prometheus/client_golang/prometheus/promhttp`
+	log "github.com/sirupsen/logrus"
 )
 
 var (
