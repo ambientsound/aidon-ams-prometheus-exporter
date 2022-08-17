@@ -68,6 +68,7 @@ func main() {
 	parseErrorCounter := counter("parse_errors", "Total number of messages dropped due to parsing errors")
 	prometheus.MustRegister(msgCounter, resyncCounter, abortCounter, parseErrorCounter)
 	go func() {
+		log.Infof("Started HTTP server on %s", listen)
 		err := http.ListenAndServe(listen, promhttp.Handler())
 		if err != nil {
 			log.Errorf("HTTP server: %s", err)
