@@ -1,2 +1,3 @@
-ams-han-cmd
-mbus.reader
+build/
+.idea/
+data/
